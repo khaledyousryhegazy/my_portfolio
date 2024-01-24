@@ -1,0 +1,81 @@
+/*------ Settings ------*/
+.toggle {
+  width: 70px;
+  height: 40px;
+  display: flex;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  justify-content: start;
+  align-items: center;
+  background-color: var(--gray);
+  color: var(--black);
+  position: fixed;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  user-select: none;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .toggle {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: var(--gray);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-radius: 50%;
+    position: unset;
+    right: unset;
+    top: unset;
+    transform: translateY(0);
+    font-size: 22px;
+  }
+}
+
+.toggle .moon {
+  position: absolute;
+  animation: keyframes-fill 0.5s;
+}
+
+.toggle .sun {
+  position: absolute;
+  display: none;
+  animation: keyframes-fill 0.5s;
+}
+
+/* ------ On check event ------ */
+.toggle input:checked ~ .moon {
+  display: none;
+}
+
+.toggle input:checked ~ .sun {
+  display: block;
+}
+
+/* ------ Hide the default checkbox ------ */
+.toggle input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* ------ Animation ------ */
+@keyframes keyframes-fill {
+  0% {
+    transform: rotate(-360deg) scale(0);
+    opacity: 0;
+  }
+
+  75% {
+    transform: rotate(25deg);
+  }
+}
