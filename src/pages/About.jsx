@@ -199,7 +199,7 @@ function About() {
         </div>
 
         {/* Knowledge and interests */}
-        <div className="flex flex-col md:flex-row md:gap-10 py-10  px-6 ">
+        <div className="flex flex-col md:flex-row gap-5 md:gap-10 py-10  px-6 ">
           {/* knowledge */}
           <div className="w-full">
             <h1 className="text-blackColor font-semibold mb-7 text-xl">
