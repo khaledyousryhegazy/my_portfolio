@@ -75,13 +75,13 @@ function Form() {
           required
         />
         <input
-          className="py-3 block w-fit px-6 capitalize bg-blackColor text-lightColor cursor-pointer hover:tracking-widest duration-300"
+          className="py-3 rounded-none block w-fit px-6 capitalize bg-blackColor text-lightColor cursor-pointer hover:tracking-widest duration-300"
           type="submit"
           value="Send Message"
         />
         <a
           href="tel:+201280710181"
-          className="py-3 flex items-center gap-3 w-fit px-6 capitalize bg-blackColor text-lightColor cursor-pointer hover:tracking-widest duration-300"
+          className="py-3 rounded-none flex items-center gap-3 w-fit px-6 capitalize bg-blackColor text-lightColor cursor-pointer hover:tracking-widest duration-300"
         >
           Phone <FontAwesomeIcon icon={faPhone} />
         </a>
