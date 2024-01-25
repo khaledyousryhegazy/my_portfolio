@@ -140,7 +140,7 @@ function About() {
         <div className="py-10  px-6 ">
           <a
             className="text-lightColor bg-blackColor py-3 px-5 block w-fit my-7 hover:tracking-[1.5px] transition-[.3s] duration-300"
-            href="/KHALED YOUSRY CV.pdf"
+            href="/KHALED_YOUSRY_CV.pdf"
             download
           >
             Download CV
