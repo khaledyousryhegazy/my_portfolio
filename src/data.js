@@ -179,7 +179,7 @@ export const portfolioData = [
     id: 1,
     name: "Grilli restaurant website",
     img: grilli,
-    link: "https://khaledyousryhegazy.github.io/grilli/",
+    link: "https://grilli-psi.vercel.app/",
     title: "restaurant website",
     description:
       "It was a really enjoyable application. I've learned many things from it and implemented a variety of features. The application is responsive across all screen sizes.",
