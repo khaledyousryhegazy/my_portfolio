@@ -90,6 +90,10 @@ export const knowledge = [
     title: "javaScript",
   },
   {
+    id: "10k",
+    title: "TypeScript",
+  },
+  {
     id: "8k",
     title: "react",
   },

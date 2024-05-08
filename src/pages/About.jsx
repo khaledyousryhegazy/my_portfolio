@@ -140,7 +140,7 @@ function About() {
         <div className="py-10  px-6 ">
           <a
             className="text-lightColor bg-blackColor py-3 px-5 block w-fit my-7 hover:tracking-[1.5px] transition-[.3s] duration-300"
-            href="/KHALED_CV.pdf"
+            href="/cv.pdf"
             download
           >
             Download CV
@@ -247,7 +247,7 @@ function About() {
         {/* Education and Experience */}
         <div className="py-10 bg-lightColor px-6 flex flex-col md:flex-row gap-5">
           {/* Education */}
-          <div className="text-blackColor w-full">
+          {/* <div className="text-blackColor w-full">
             <h1 className="text-blackColor font-semibold mb-7 text-xl">
               Education
             </h1>
@@ -264,14 +264,14 @@ function About() {
                 </div>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* Experience */}
           <div className="text-blackColor w-full">
             <h1 className="text-blackColor font-semibold mb-7 text-xl">
               Experience
             </h1>
             <ul className="about-education relative p-6">
-              <li className="flex gap-5 items-center">
+              <li className="flex gap-5 sm:items-center flex-col sm:flex-row items-start">
                 <span className=" py-2 px-4 text-sm bg-blackOpacity rounded-full">
                   2020 - 2024
                 </span>
@@ -282,24 +282,38 @@ function About() {
                   </p>
                 </div>
               </li>
-
-              <li className="flex gap-5 items-center mt-5">
-                <span className=" py-2 px-4 text-sm bg-blackOpacity rounded-full">
-                  2023 - 2024
-                </span>
-                <div>
-                  <h1 className="font-semibold">Companies</h1>
-                  <p className="text-sm text-textLightColor">Not Yet</p>
-                </div>
-              </li>
-
-              <li className="flex gap-5 items-center mt-5">
-                <span className=" py-2 px-4 text-sm bg-blackOpacity rounded-full">
+              <li className="flex gap-5 sm:items-center mt-5 flex-col sm:flex-row items-start">
+                <span className=" py-2  whitespace-nowrap px-4 text-sm bg-blackOpacity rounded-full">
                   2023 - 2024
                 </span>
                 <div>
                   <h1 className="font-semibold">Freelancer</h1>
-                  <p className="text-sm text-textLightColor">Build websites</p>
+                  <p className="text-sm text-textLightColor text-balance capitalize">
+                    Experienced freelancer on Upwork and Mostaql, specializing
+                    in project development for both local and international
+                    clients. Successfully delivered numerous projects for
+                    companies inside and outside Egypt.{" "}
+                  </p>
+                </div>
+              </li>
+
+              <li className="flex gap-5 sm:items-center mt-5 flex-col sm:flex-row items-start">
+                <span className="min-w-[115px] text-center whitespace-nowrap py-2 px-4 text-sm bg-blackOpacity rounded-full">
+                  2024
+                </span>
+                <div>
+                  <h1 className="font-semibold text-balance">
+                    Frontend Developer (Fulltime)
+                  </h1>
+                  <p className="text-sm text-textLightColor">
+                    Contributed as a full-time front-end developer for a
+                    duration of three months. Played a key role in developing
+                    user-friendly interfaces and implementing innovative
+                    solutions to meet project requirements. Collaborated
+                    effectively with the team to ensure timely delivery of
+                    projects while maintaining high standards of quality and
+                    performance.
+                  </p>
                 </div>
               </li>
             </ul>
