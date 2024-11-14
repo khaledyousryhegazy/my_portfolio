@@ -14,7 +14,10 @@ function Portfolio() {
     <div className="py-24">
       <AnimatedPages>
         <Title main="portfolio" title="creative portfolio" />
-
+        <h1 className="px-6 text-l mb-5 font-semibold capitalize text-blackColor">
+          <span className="text-red-600">Note:</span> These are not all my
+          projects, go to Github to check
+        </h1>
         <div className="px-6 grid grid-cols-1 md:grid-cols-2 gap-5">
           {portfolioData.map((project) => {
             return (

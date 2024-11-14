@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 function Title({ main, title }) {
   return (
     <div className=" px-6">

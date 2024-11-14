@@ -50,18 +50,33 @@ export const programmingSkills = [
   },
   {
     id: "2p",
-    title: "JavaScript",
+    title: "JavaScript,TypeScript",
     rate: "88%",
   },
   {
     id: "3p",
-    title: "ReactJs",
+    title: "ReactJs, NextJs",
     rate: "90%",
   },
   {
     id: "4p",
     title: "Tailwind , Bootstrap",
     rate: "98%",
+  },
+  {
+    id: "5p",
+    title: "Redux, Zustand",
+    rate: "80%",
+  },
+  {
+    id: "6p",
+    title: "NodeJs, ExpressJs",
+    rate: "70%",
+  },
+  {
+    id: "7p",
+    title: "MongoDB, Mongoose",
+    rate: "80%",
   },
 ];
 
@@ -83,19 +98,23 @@ export const langSkills = [
 export const knowledge = [
   {
     id: "1k",
-    title: "html , css",
+    title: "html, css",
   },
   {
     id: "2k",
-    title: "javaScript",
+    title: "javaScript, TypeScript",
   },
   {
     id: "10k",
-    title: "TypeScript",
+    title: "nodejs, expressjs",
   },
   {
     id: "8k",
-    title: "react",
+    title: "reactjs, nextjs",
+  },
+  {
+    id: "11k",
+    title: "mongoDB, mongoose",
   },
   {
     id: "3k",
@@ -107,15 +126,11 @@ export const knowledge = [
   },
   {
     id: "5k",
-    title: "redux , redux toolkit , react router ",
+    title: "redux , redux toolkit , zustand ",
   },
   {
     id: "9k",
     title: "Figma",
-  },
-  {
-    id: "6k",
-    title: "vite",
   },
   {
     id: "7k",

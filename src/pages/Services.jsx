@@ -42,7 +42,7 @@ function Services() {
           <div className="flex flex-col md:flex-row gap-7">
             <div className="text-center p-5 shadow-sm border w-full">
               <span className="block text-xl text-blackColor font-semibold mb-5">
-                32+
+                48+
               </span>
               <h1 className="text-textLightColor font-medium">
                 Projects Complete
@@ -51,7 +51,7 @@ function Services() {
 
             <div className="text-center p-5 shadow-sm border w-full">
               <span className="block text-xl text-blackColor font-semibold mb-5">
-                9k+
+                20k+
               </span>
               <h1 className="text-textLightColor font-medium">Lines Of Code</h1>
             </div>

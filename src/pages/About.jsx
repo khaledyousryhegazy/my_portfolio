@@ -1,5 +1,7 @@
 import AnimatedPages from "../components/AnimatedPages";
-import khaled from "../assets/khaledBlack.jpeg";
+// import khaled from "../assets/khaledBlack.jpeg";
+// import khaled1 from "../assets/khaled1.jpg";
+import khaled2 from "../assets/khaled2.jpg";
 import { interests, knowledge, langSkills, programmingSkills } from "../data";
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,7 +19,7 @@ function About() {
           {/* <img src={khaled} alt="khaled yousry" /> */}
 
           <LazyImg
-            src={khaled}
+            src={khaled2}
             style="min-w-full max-w-full"
             alt="khaled yousry"
           />
@@ -32,15 +34,11 @@ function About() {
 
         {/* about */}
         <p className="py-10  px-6  border-b border-grayColor text-balance leading-loose text-[15px] font-semibold text-blackColor opacity-75">
-          Hi, My Name Is Khaled Yousry . <br></br> As a Junior Front-End
-          Developer, I possess an impressive arsenal of skills in HTML, CSS,
-          JavaScript, React, Redux, Tailwind and Bootstrap. I excel at designing
-          and maintaining responsive websites that offer a smooth user
-          experience. My expertise lies in crafting dynamic, engaging interfaces
-          through writing clean and optimized code and utilizing cutting-edge
-          development tools and techniques. I am also a team player who thrives
-          in collaborating with cross-functional teams to produce outstanding
-          web applications.
+          Hi, My Name Is Khaled Yousry . <br></br> Front-end Developer with one
+          year of experience in React and Next.js, skilled in creating
+          responsive, userfriendly interfaces and innovative web solutions.
+          Strong problem-solving abilities and a commitment to continuous
+          learning to drive innovation in front-end development.
         </p>
 
         {/* About me */}
@@ -58,7 +56,7 @@ function About() {
               <span className="block font-semibold text-blackColor min-w-20 mr-2">
                 Age :
               </span>
-              <span className="font-normal text-textLightColor">21</span>
+              <span className="font-normal text-textLightColor">22</span>
             </li>
 
             <li className="flex">
@@ -124,7 +122,7 @@ function About() {
                 Interest :
               </span>
               <span className="font-normal text-textLightColor">
-                Gym , Boxing , Coding
+                Gym , Swimming, Coding
               </span>
             </li>
 
@@ -272,9 +270,11 @@ function About() {
             </h1>
             <ul className="about-education relative p-6">
               <li className="flex gap-5 sm:items-center flex-col sm:flex-row items-start">
-                <span className=" py-2 px-4 text-sm bg-blackOpacity rounded-full">
-                  2020 - 2024
-                </span>
+                <div className="min-w-[170px]">
+                  <span className="  py-2 px-4 text-sm bg-blackOpacity rounded-full">
+                    2020 - 2024
+                  </span>
+                </div>
                 <div>
                   <h1 className="font-semibold">Projects</h1>
                   <p className="text-sm text-textLightColor">
@@ -283,12 +283,17 @@ function About() {
                 </div>
               </li>
               <li className="flex gap-5 sm:items-center mt-5 flex-col sm:flex-row items-start">
-                <span className=" py-2  whitespace-nowrap px-4 text-sm bg-blackOpacity rounded-full">
-                  2023 - 2024
-                </span>
+                <div className="min-w-[170px]">
+                  <span className=" py-2  whitespace-nowrap px-4 text-sm bg-blackOpacity rounded-full">
+                    10 / 2023 - 12 / 2023
+                  </span>
+                </div>
                 <div>
-                  <h1 className="font-semibold">Freelancer</h1>
-                  <p className="text-sm text-textLightColor text-balance capitalize">
+                  <h1 className="font-semibold">
+                    Freelancer At Cleverness Agency Company (Front-end
+                    Developer){" "}
+                  </h1>
+                  <p className="text-sm text-textLightColor text-balance capitalize max-w-[900px]">
                     Experienced freelancer on Upwork and Mostaql, specializing
                     in project development for both local and international
                     clients. Successfully delivered numerous projects for
@@ -298,21 +303,39 @@ function About() {
               </li>
 
               <li className="flex gap-5 sm:items-center mt-5 flex-col sm:flex-row items-start">
-                <span className="min-w-[115px] text-center whitespace-nowrap py-2 px-4 text-sm bg-blackOpacity rounded-full">
-                  2024
-                </span>
+                <div className="min-w-[170px]">
+                  <span className="  w-fit text-center whitespace-nowrap py-2 px-4 text-sm bg-blackOpacity rounded-full">
+                    12 / 2023 - 4 / 2024
+                  </span>
+                </div>
                 <div>
                   <h1 className="font-semibold text-balance">
-                    Frontend Developer (Fulltime)
+                    Softa Solutions (Junior Front-end Developer)
                   </h1>
-                  <p className="text-sm text-textLightColor">
-                    Contributed as a full-time front-end developer for a
-                    duration of three months. Played a key role in developing
-                    user-friendly interfaces and implementing innovative
-                    solutions to meet project requirements. Collaborated
-                    effectively with the team to ensure timely delivery of
-                    projects while maintaining high standards of quality and
-                    performance.
+                  <p className="text-sm text-textLightColor text-balance capitalize max-w-[900px]">
+                    I contributed as a full-time front-end developer , Playing a
+                    key role in designing user-friendly interfaces and
+                    implementing innovative solutions to meet , I collaborated
+                    closely with the team to ensure timely project delivery.
+                  </p>
+                </div>
+              </li>
+
+              <li className="flex gap-5 sm:items-center mt-5 flex-col sm:flex-row items-start">
+                <div className="min-w-[170px]">
+                  <span className="  w-fit text-center whitespace-nowrap py-2 px-4 text-sm bg-blackOpacity rounded-full">
+                    4 / 2023 - 11 / 2024
+                  </span>
+                </div>
+                <div>
+                  <h1 className="font-semibold text-balance">
+                    Jakom Tech (Junior Front-end Developer)
+                  </h1>
+                  <p className="text-sm text-textLightColor text-balance capitalize max-w-[900px]">
+                    Started with the company as a frontend freelancer,
+                    contributing to a single project. Transitioned to a
+                    full-time contract as a frontend developer. Advanced to a
+                    full-stack developer role after three months.
                   </p>
                 </div>
               </li>

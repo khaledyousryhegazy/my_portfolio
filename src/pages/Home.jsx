@@ -28,7 +28,11 @@ function Home() {
                 deleteSpeed={15}
                 loop={0}
                 typeSpeed={35}
-                words={["Front end Developer .", "Programmer ."]}
+                words={[
+                  "Front end Developer .",
+                  "Programmer .",
+                  "Web Developer",
+                ]}
               />
             </h2>
             <p className="text-textLightColor text-balance capitalize font-medium">
@@ -48,7 +52,7 @@ function Home() {
               </a>
 
               <a
-                href="https://www.instagram.com/khaledyousry_21/"
+                href="https://www.instagram.com/kha._.ledd/"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -70,24 +74,13 @@ function Home() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/khalid-yousry-a35b15234/"
+                href="https://www.linkedin.com/in/khaled-yousry-a35b15234/"
                 rel="noreferrer"
                 target="_blank"
               >
                 <FontAwesomeIcon
                   className=" hover:-translate-y-[7px] hover:text-textLightColor transition-[1] duration-[.4s]"
                   icon={faLinkedin}
-                />
-              </a>
-
-              <a
-                href="https://twitter.com/iamkhalid_2002"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <FontAwesomeIcon
-                  className=" hover:-translate-y-[7px] hover:text-textLightColor transition-[1] duration-[.4s]"
-                  icon={faXTwitter}
                 />
               </a>
             </div>
